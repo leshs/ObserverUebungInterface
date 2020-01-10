@@ -4,9 +4,9 @@ namespace ObserverUebungInterface
 {
     class Program : IFileAddedListener
     {
-        Logger logger1 = new Logger("C:\\Users\\lschubert\\Documents\\log.txt");
+        Logger logger1 = new Logger("C:\\Users\\...\\log.txt");
         Logger logger2 = new Logger(Console.Out);
-        FolderWatch watcher = new FolderWatch("C:\\Users\\lschubert\\Documents\\TestFolder");
+        FolderWatch watcher = new FolderWatch("C:\\Users\\...\\TestFolder");
 
 
         static void Main(string[] args)
